@@ -11,7 +11,7 @@
 
 <div class="number">
   <div class="label-container"><label for={name}>{numberLabel}</label></div>
-  <input type="number" {name} {disabled} inputmode="numeric" bind:value />
+  <input type="number" {name} {disabled} inputmode="decimal" bind:value />
 
   {#if !disableUnits}
     <select class="unit-picker" bind:value={unit}>
