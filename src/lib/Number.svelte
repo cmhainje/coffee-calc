@@ -71,4 +71,22 @@
     color: black;
     border: none;
   }
+
+  @media (prefers-color-scheme: dark) {
+    input[type="number"] {
+      padding: 2px 10px;
+      font-size: 60px;
+      width: 4ch;
+      text-align: center;
+      color: #fff;
+      background-color: #404040;
+      border: 1px solid #f0f0f0;
+      border-radius: 4px;
+    }
+
+    input[type="number"]:disabled {
+      color: #fff;
+      border: none;
+    }
+  }
 </style>
